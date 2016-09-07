@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    border: 0;
+    float: left;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#calendar{
+    position: relative;
+    margin: 20px;
+}
+
+.calendar-input{
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 0 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.calendar *{
+    box-sizing: border-box;
+    background: none;
+    border: 0 none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-family: "microsoft yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow: hidden;
+}
+
+.calendar-popup{
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.calendar{
+    position: relative;
+    width: 400px;
+    height: 215px;
+    overflow: hidden;
+    border-radius: 5px;
+    padding-top: 35px;
+    border: 1px solid gray;
+}
+
+.calendar-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-color: red;
+}
+
+.calendar-header-previous,.calendar-header-next{
+    width: 25%;
+    height: 100%;
+}
+
+.calendar-header-now{
+    width: 50%;
+    height: 100%;
+}
+
+.calendar-body{
+    width: 100%;
+    height: 100%;
+}
+
+.calendar-body table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.calendar-week-title{
+    display: block;
+    float: left;
+    padding: 0 0.28em;
+    color: #000;
+    border-bottom: 1px dotted #555;
+    text-align: center;
+    width: 13.28571%;
+    margin: 0.5%;
+    height: 1.5em;
+    line-height: 1.5em;
+}
+
+.calendar-day-item{
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    padding: 0 0.28em;
+    color: #222;
+    height: 1.6em;
+    line-height: 1.6em;
+    text-align: center;
+    width: 13.28571%;
+    margin: 0.5%;
+}
+
+.calendar-day-value{
+    background-color: #f9f9f9;
+}
