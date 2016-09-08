@@ -111,6 +111,15 @@ button{
     margin: 0.5%;
 }
 
+.calendar-day-item:hover{
+    border-radius: 8px;
+    background-color: bisque;
+}
+
 .calendar-day-value{
     background-color: #f9f9f9;
+}
+
+.dn{
+    display: none;
 }
