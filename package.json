@@ -1,0 +1,8 @@
+{
+  "name": "Font-End-Study",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
+  }
+}
